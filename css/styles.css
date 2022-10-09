@@ -17,52 +17,51 @@ body {
 
 .logo {
   color: var(--color-inverted);
-  font-family: "Raleway";
+  font-family: 'Raleway';
   text-decoration: none;
-  font size: 26px;
+  font-size: 26px;
   line-height: 1.2;
-  font-weight:700; 
+  font-weight: 700;
 }
 
 .logo-studio-header {
   color: var(--color-text);
-  font-family: "Raleway";
+  font-family: 'Raleway';
   text-decoration: none;
-  font size: 26px;
+  font-size: 26px;
   line-height: 1.2;
-  font-weight:700; 
+  font-weight: 700;
 }
 
 .logo-footer-studio {
   color: var(--color-white);
-  font-family: "Raleway";
+  font-family: 'Raleway';
   text-decoration: none;
-  font size: 26px;
+  font-size: 26px;
   line-height: 1.2;
-  font-weight:700; 
+  font-weight: 700;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 
 .hero-link {
   color: var(--color-inverted);
   font-family: inherit;
   text-decoration: none;
-  font size: 14px;
+  font-size: 14px;
   line-height: 1.1;
-  font-weight:500; 
+  font-weight: 500;
 }
 
 .link {
   color: var(--color-primary);
-  font-family: inherit ;
+  font-family: inherit;
   text-decoration: none;
-  font size: 14px;
+  font-size: 14px;
   line-height: 1.1;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .link:hover {
@@ -70,21 +69,18 @@ ul {
   text-decoration: underline;
 }
 
-
 .link-tel-email {
   color: var(--color-brand);
   text-decoration: none;
-  font size: 14px;
+  font-size: 14px;
   line-height: 1.1;
-  font-weight:500
-  
+  font-weight: 500;
 }
 
 .link-tel-email:hover {
   color: var(--color-inverted);
   text-decoration: underline;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -139,7 +135,6 @@ ul {
   font-weight: 700;
 }
 
-
 .section-item {
   background: var(--color-background);
 }
@@ -155,7 +150,6 @@ ul {
   text-transform: none;
   font-size: 16px;
   line-height: 1.2;
-  
 }
 
 .about-portfolio {
@@ -179,7 +173,6 @@ ul {
   text-transform: none;
   font-size: 14px;
   line-height: 1.7;
-
 }
 
 .address {
@@ -196,15 +189,13 @@ ul {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
-  opacity: 60%
+  opacity: 60%;
 }
 
 .address-contact:hover {
-   color: var(--color-inverted);
-  text-decoration: underline
+  color: var(--color-inverted);
+  text-decoration: underline;
 }
-
-
 
 /* Button */
 .primary-button {
@@ -215,14 +206,13 @@ ul {
   font-weight: 700;
   background-color: var(--color-inverted);
   border: 0;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .primary-button:hover {
-  text-decoration: underline;
+  color: var(--color-white);
   text-decoration-color: var(--color-white);
 }
-
 
 .secondary-button {
   color: var(--color-white);
@@ -232,8 +222,8 @@ ul {
   font-weight: 500;
   background-color: var(--color-inverted);
   border: 0;
-  border-radius: 4px; 
-  cursor: pointer
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .secondary-button:hover {
@@ -250,8 +240,8 @@ ul {
   font-weight: 500;
   background-color: var(--color-secondary);
   border: 0;
-  border-radius: 4px; 
-  cursor: pointer
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:hover {
