@@ -13,6 +13,8 @@ body {
   color: var(--color-primary);
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-background);
+  font-size: 14px;
+  letter-spacing: 0.03rem;
 }
 
 .logo {
@@ -22,6 +24,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio-header {
@@ -31,6 +34,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer-studio {
@@ -40,19 +44,11 @@ body {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 ul {
   list-style-type: none;
-}
-
-.hero-link {
-  color: var(--color-inverted);
-  font-family: inherit;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.1;
-  font-weight: 500;
 }
 
 .link {
@@ -62,24 +58,32 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .link:hover {
   color: var(--color-inverted);
-  text-decoration: underline;
+}
+
+.link:focus {
+  color: var(--color-inverted);
 }
 
 .link-tel-email {
   color: var(--color-brand);
-  text-decoration: none;
   font-size: 14px;
+  text-decoration: none;
   line-height: 1.1;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .link-tel-email:hover {
   color: var(--color-inverted);
-  text-decoration: underline;
+}
+
+.link-tel-email:focus {
+  color: var(--color-inverted);
 }
 
 .visually-hidden {
@@ -101,14 +105,15 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   font-weight: 900;
+  letter-spacing: 0.06em;
 }
 
 .secondary-title {
   color: var(--color-primary);
-  text-transform: none;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .title {
@@ -117,46 +122,58 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .title-img {
   color: var(--color-primary);
-  text-transform: none;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
 .title-img-two {
   color: var(--color-primary);
-  text-transform: none;
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 .section-item {
   background: var(--color-background);
 }
+
+.img {
+  width: 370px;
+  height: 294px;
+}
+
+.img-team {
+  width: 270px;
+  height: 260px;
+}
+
 .about-title {
   color: var(--color-brand);
-  text-transform: none;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .about-team {
   color: var(--color-brand);
-  text-transform: none;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .about-portfolio {
   color: var(--color-brand);
-  text-transform: none;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .hero-section {
@@ -170,7 +187,6 @@ ul {
 .footer {
   background-color: var(--color-accent);
   color: var(--color-white);
-  text-transform: none;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -181,6 +197,14 @@ ul {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.address:hover {
+  color: var(--color-inverted);
+}
+
+.address:focus {
+  color: var(--color-inverted);
 }
 
 .address-contact {
@@ -194,7 +218,10 @@ ul {
 
 .address-contact:hover {
   color: var(--color-inverted);
-  text-decoration: underline;
+}
+
+.address-contact:focus {
+  color: var(--color-inverted);
 }
 
 /* Button */
@@ -207,29 +234,14 @@ ul {
   background-color: var(--color-inverted);
   border: 0;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 
 .primary-button:hover {
-  color: var(--color-white);
-  text-decoration-color: var(--color-white);
+  background-color: #0789f3;
 }
-
-.secondary-button {
-  color: var(--color-white);
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.6;
-  font-weight: 500;
-  background-color: var(--color-inverted);
-  border: 0;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.secondary-button:hover {
-  color: var(--color-white);
-  background-color: var(--color-inverted);
-  text-decoration-color: #fff;
+s .primary-button:focus {
+  background-color: #0789f3;
 }
 
 .button {
@@ -242,9 +254,15 @@ ul {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 
 .button:hover {
+  color: var(--color-white);
+  background-color: var(--color-inverted);
+}
+
+.button:focus {
   color: var(--color-white);
   background-color: var(--color-inverted);
 }
