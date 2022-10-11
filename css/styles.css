@@ -14,7 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-background);
   font-size: 14px;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -29,22 +29,10 @@ body {
 
 .logo-studio-header {
   color: var(--color-text);
-  font-family: 'Raleway';
-  text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
-  font-weight: 700;
-  letter-spacing: 0.03em;
 }
 
 .logo-footer-studio {
   color: var(--color-white);
-  font-family: 'Raleway';
-  text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
-  font-weight: 700;
-  letter-spacing: 0.03em;
 }
 
 ul {
@@ -143,16 +131,6 @@ ul {
 
 .section-item {
   background: var(--color-background);
-}
-
-.img {
-  width: 370px;
-  height: 294px;
-}
-
-.img-team {
-  width: 270px;
-  height: 260px;
 }
 
 .about-title {
